@@ -11,3 +11,11 @@ IssueTracker: https://github.com/PremPoddar/Tune/issues
 Changelog: https://github.com/PremPoddar/Tune/releases
 
 AutoName: Tune
+
+Builds:
+  - versionName: 1.0.2
+    versionCode: 3
+    commit: v1.0.2
+
+CurrentVersion: 1.0.2
+CurrentVersionCode: 3

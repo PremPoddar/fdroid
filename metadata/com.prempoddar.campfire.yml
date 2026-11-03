@@ -11,3 +11,11 @@ IssueTracker: https://github.com/PremPoddar/Campfire/issues
 Changelog: https://github.com/PremPoddar/Campfire/releases
 
 AutoName: Campfire
+
+Builds:
+  - versionName: 1.0.3
+    versionCode: 4
+    commit: v1.0.3
+
+CurrentVersion: 1.0.3
+CurrentVersionCode: 4

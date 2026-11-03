@@ -15,3 +15,14 @@ IssueTracker: https://github.com/PremPoddar/OAF/issues
 Changelog: https://github.com/PremPoddar/OAF/releases
 
 AutoName: OAF
+
+Builds:
+  - versionName: 1.2.2
+    versionCode: 6
+    commit: v1.2.2
+  - versionName: 1.2.3
+    versionCode: 7
+    commit: v1.2.3
+
+CurrentVersion: 1.2.3
+CurrentVersionCode: 7

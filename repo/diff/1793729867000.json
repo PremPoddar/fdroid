@@ -7,9 +7,45 @@
         "size": 52401
       }
     },
-    "timestamp": 1793732129000
+    "timestamp": 1793732484000
   },
   "packages": {
+    "com.prempoddar.campfire": {
+      "versions": {
+        "92b09f24c30ca4ed677970a8acae616788cd8d38190dddd451f04bc0d016070e": {
+          "whatsNew": {
+            "en-US": "• Built reproducibly, so the F-Droid and GitHub versions are the same app with the same signature, and you can update from either.\n"
+          }
+        }
+      }
+    },
+    "com.prempoddar.duet": {
+      "versions": {
+        "36dac212b9e29a5894bcc3ac663513ada8929a11ac81cee492c169a73b54bb35": {
+          "whatsNew": {
+            "en-US": "• Built reproducibly, so the F-Droid and GitHub versions are the same app with the same signature, and you can update from either.\n"
+          }
+        }
+      }
+    },
+    "com.prempoddar.librechat": {
+      "versions": {
+        "29b80feda05ecd23530f706aa721cc0773d3ba3eb7f2068a6a0f3a5058060cfd": {
+          "whatsNew": {
+            "en-US": "• Built reproducibly, so the F-Droid and GitHub versions are the same app with the same signature, and you can update from either.\n"
+          }
+        }
+      }
+    },
+    "com.prempoddar.loadstone": {
+      "versions": {
+        "8540dae627df3c9bcfdf961e8afcd15f27394eb90be7e301627dd3a59de2d659": {
+          "whatsNew": {
+            "en-US": "• Website and contact links in About.\n"
+          }
+        }
+      }
+    },
     "com.prempoddar.oaf": {
       "metadata": {
         "lastUpdated": 1793732126000,
@@ -146,6 +182,23 @@
             "NonFreeDep": {
               "en-US": "Uses Google's ML Kit (through Google Play Services) to copy text out of photos, scan documents and remove backgrounds, and the UnRAR licence to open RAR files."
             }
+          },
+          "whatsNew": {
+            "en-US": "• Open Any File: that's what OAF stands for, and the app now says so on the home screen and in About.\n"
+          }
+        },
+        "75bd4a744bdd20922d0eb2352a4aa9f36f8361d80ac266f31b97826541ad7c98": {
+          "whatsNew": {
+            "en-US": "• Back goes back where you came from: when another app opens a file or an APK with OAF, going back now returns to that app, even after installing the APK.\n"
+          }
+        }
+      }
+    },
+    "com.prempoddar.tune": {
+      "versions": {
+        "e47e65445f25c2205be9fcf4fada0f180e6368d5fe17e1e7febcf897f8096c68": {
+          "whatsNew": {
+            "en-US": "• Built reproducibly, so the F-Droid and GitHub versions are the same app with the same signature, and you can update from either.\n"
           }
         }
       }

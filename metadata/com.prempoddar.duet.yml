@@ -13,3 +13,11 @@ IssueTracker: https://github.com/PremPoddar/Duet/issues
 Changelog: https://github.com/PremPoddar/Duet/releases
 
 AutoName: Duet
+
+Builds:
+  - versionName: 2.0.2
+    versionCode: 6
+    commit: v2.0.2
+
+CurrentVersion: 2.0.2
+CurrentVersionCode: 6

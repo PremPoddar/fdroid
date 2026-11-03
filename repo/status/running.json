@@ -19,40 +19,50 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1793732131807,
+  "endTimestamp": 1793732487271,
   "failedBuilds": {},
   "fdroiddata": {
-    "commitId": "c6975d3051c4500976ed9cbfe578f8d88ad9b3d3",
+    "commitId": "8069a4e27270a238b1d1cf577f61514b28dbfc96",
     "isDirty": true,
     "modifiedFiles": [
-      "README.md",
-      "metadata/com.prempoddar.oaf/en-US/full_description.txt",
-      "metadata/com.prempoddar.oaf/en-US/images/phoneScreenshots/1.png",
-      "metadata/com.prempoddar.oaf/en-US/short_description.txt"
+      "archive/diff/1793729827000.json",
+      "archive/diff/1793729864000.json",
+      "archive/diff/1793729891000.json",
+      "archive/entry.jar",
+      "archive/entry.json",
+      "archive/index-v1.jar",
+      "archive/index-v1.json",
+      "archive/index-v2.json",
+      "archive/index.jar",
+      "archive/index.xml",
+      "metadata/com.prempoddar.campfire.yml",
+      "metadata/com.prempoddar.duet.yml",
+      "metadata/com.prempoddar.librechat.yml",
+      "metadata/com.prempoddar.loadstone.yml",
+      "metadata/com.prempoddar.oaf.yml",
+      "metadata/com.prempoddar.tune.yml",
+      "repo/diff/1793729840000.json",
+      "repo/diff/1793729867000.json",
+      "repo/diff/1793729893000.json",
+      "repo/entry.jar",
+      "repo/entry.json",
+      "repo/index-v1.jar",
+      "repo/index-v1.json",
+      "repo/index-v2.json",
+      "repo/index.jar",
+      "repo/index.xml",
+      "repo/status/running.json",
+      "repo/status/update.json"
     ],
     "untrackedFiles": [
-      "metadata/com.prempoddar.oaf/en-US/changelogs/7.txt",
-      "repo/com.prempoddar.oaf_7.apk"
+      "archive/diff/1793732126000.json",
+      "repo/diff/1793732129000.json"
     ]
   },
   "jarsigner": "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/jarsigner",
   "keytool": "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/keytool",
-  "needsUpdate": [
-    "com.prempoddar.campfire",
-    "com.prempoddar.duet",
-    "com.prempoddar.librechat",
-    "com.prempoddar.loadstone",
-    "com.prempoddar.oaf",
-    "com.prempoddar.tune"
-  ],
-  "noPackages": [
-    "com.prempoddar.campfire",
-    "com.prempoddar.duet",
-    "com.prempoddar.librechat",
-    "com.prempoddar.loadstone",
-    "com.prempoddar.oaf",
-    "com.prempoddar.tune"
-  ],
+  "needsUpdate": [],
+  "noPackages": [],
   "noUpdateCheck": [
     "com.prempoddar.campfire",
     "com.prempoddar.duet",
@@ -62,17 +72,17 @@
     "com.prempoddar.tune"
   ],
   "stages": {
-    "archive_old_apks archive": 1793732126863,
-    "delete_disabled_builds": 1793732126148,
-    "index.make archive": 1793732126864,
-    "index.make repo": 1793732129435,
-    "prepare_apps archive": 1793732126864,
-    "prepare_apps repo": 1793732129144,
-    "process_apks": 1793732126148,
-    "read_added_date_from_all_apks": 1793732126863,
-    "remove_apks": 1793732126862,
-    "scan_repo_files": 1793732126862
+    "archive_old_apks archive": 1793732482155,
+    "delete_disabled_builds": 1793732482154,
+    "index.make archive": 1793732482156,
+    "index.make repo": 1793732484797,
+    "prepare_apps archive": 1793732482156,
+    "prepare_apps repo": 1793732484746,
+    "process_apks": 1793732482154,
+    "read_added_date_from_all_apks": 1793732482155,
+    "remove_apks": 1793732482155,
+    "scan_repo_files": 1793732482155
   },
-  "startTimestamp": 1793712326000,
+  "startTimestamp": 1793712682000,
   "subcommand": "update"
 }

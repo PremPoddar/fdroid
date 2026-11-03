@@ -14,7 +14,7 @@
       }
     },
     "address": "https://prempoddar.github.io/fdroid/repo",
-    "timestamp": 1793732129000,
+    "timestamp": 1793732484000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -173,6 +173,9 @@
                 "name": "com.prempoddar.campfire.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
+          },
+          "whatsNew": {
+            "en-US": "• Built reproducibly, so the F-Droid and GitHub versions are the same app with the same signature, and you can update from either.\n"
           }
         }
       }
@@ -318,6 +321,9 @@
             "NonFreeNet": {
               "en-US": "Finds other phones over the internet through a public MQTT relay (HiveMQ) and Google's STUN servers, and plays YouTube videos through YouTube."
             }
+          },
+          "whatsNew": {
+            "en-US": "• Built reproducibly, so the F-Droid and GitHub versions are the same app with the same signature, and you can update from either.\n"
           }
         }
       }
@@ -492,6 +498,9 @@
                 "name": "com.prempoddar.librechat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
+          },
+          "whatsNew": {
+            "en-US": "• Built reproducibly, so the F-Droid and GitHub versions are the same app with the same signature, and you can update from either.\n"
           }
         }
       }
@@ -631,6 +640,9 @@
             "NonFreeDep": {
               "en-US": "Uses Google Play Services for location and for scanning QR codes."
             }
+          },
+          "whatsNew": {
+            "en-US": "• Website and contact links in About.\n"
           }
         }
       }
@@ -803,6 +815,9 @@
             "NonFreeDep": {
               "en-US": "Uses Google's ML Kit (through Google Play Services) to copy text out of photos, scan documents and remove backgrounds, and the UnRAR licence to open RAR files."
             }
+          },
+          "whatsNew": {
+            "en-US": "• Open Any File: that's what OAF stands for, and the app now says so on the home screen and in About.\n"
           }
         },
         "75bd4a744bdd20922d0eb2352a4aa9f36f8361d80ac266f31b97826541ad7c98": {
@@ -884,6 +899,9 @@
             "NonFreeDep": {
               "en-US": "Uses Google's ML Kit (through Google Play Services) to copy text out of photos, scan documents and remove backgrounds, and the UnRAR licence to open RAR files."
             }
+          },
+          "whatsNew": {
+            "en-US": "• Back goes back where you came from: when another app opens a file or an APK with OAF, going back now returns to that app, even after installing the APK.\n"
           }
         }
       }
@@ -1010,6 +1028,9 @@
                 "name": "moe.shizuku.manager.permission.API_V23"
               }
             ]
+          },
+          "whatsNew": {
+            "en-US": "• Built reproducibly, so the F-Droid and GitHub versions are the same app with the same signature, and you can update from either.\n"
           }
         }
       }

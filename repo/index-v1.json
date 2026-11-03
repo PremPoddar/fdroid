@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1793732129000,
+    "timestamp": 1793732484000,
     "version": 20002,
     "name": "Prem Poddar's apps",
     "icon": "repo-icon.png",
@@ -21,6 +21,7 @@
         "Connectivity"
       ],
       "changelog": "https://github.com/PremPoddar/Campfire/releases",
+      "suggestedVersionName": "1.0.3",
       "suggestedVersionCode": "4",
       "issueTracker": "https://github.com/PremPoddar/Campfire/issues",
       "license": "Apache-2.0",
@@ -58,6 +59,7 @@
         "Multimedia"
       ],
       "changelog": "https://github.com/PremPoddar/Duet/releases",
+      "suggestedVersionName": "2.0.2",
       "suggestedVersionCode": "6",
       "issueTracker": "https://github.com/PremPoddar/Duet/issues",
       "license": "Apache-2.0",
@@ -93,6 +95,7 @@
         "Connectivity"
       ],
       "changelog": "https://github.com/PremPoddar/LibreChat/releases",
+      "suggestedVersionName": "1.1.1",
       "suggestedVersionCode": "5",
       "issueTracker": "https://github.com/PremPoddar/LibreChat/issues",
       "license": "Apache-2.0",
@@ -129,6 +132,7 @@
         "Navigation"
       ],
       "changelog": "https://github.com/PremPoddar/Loadstone/releases",
+      "suggestedVersionName": "1.1.1",
       "suggestedVersionCode": "3",
       "issueTracker": "https://github.com/PremPoddar/Loadstone/issues",
       "license": "Apache-2.0",
@@ -167,6 +171,7 @@
         "Multimedia"
       ],
       "changelog": "https://github.com/PremPoddar/OAF/releases",
+      "suggestedVersionName": "1.2.3",
       "suggestedVersionCode": "7",
       "issueTracker": "https://github.com/PremPoddar/OAF/issues",
       "license": "Apache-2.0",
@@ -205,6 +210,7 @@
         "System"
       ],
       "changelog": "https://github.com/PremPoddar/Tune/releases",
+      "suggestedVersionName": "1.0.2",
       "suggestedVersionCode": "3",
       "issueTracker": "https://github.com/PremPoddar/Tune/issues",
       "license": "Apache-2.0",

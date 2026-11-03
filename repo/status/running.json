@@ -1,0 +1,64 @@
+{
+  "antiFeatures": {
+    "NonFreeDep": {
+      "apps": [
+        "com.prempoddar.loadstone",
+        "com.prempoddar.oaf"
+      ]
+    },
+    "NonFreeNet": {
+      "apps": [
+        "com.prempoddar.duet"
+      ]
+    }
+  },
+  "apksigner": "/Users/prem/Library/Android/sdk/build-tools/36.1.0/apksigner",
+  "archivePolicy0": [],
+  "commandLine": [
+    "/private/tmp/claude-501/-Users-prem-Desktop-Android-Apps/c9f8420b-c06f-470c-8d8c-b770624c4302/scratchpad/venv/bin/fdroid update",
+    "--pretty"
+  ],
+  "disabled": [],
+  "endTimestamp": 1793729896093,
+  "failedBuilds": {},
+  "jarsigner": "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/jarsigner",
+  "keytool": "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/keytool",
+  "needsUpdate": [
+    "com.prempoddar.campfire",
+    "com.prempoddar.duet",
+    "com.prempoddar.librechat",
+    "com.prempoddar.loadstone",
+    "com.prempoddar.oaf",
+    "com.prempoddar.tune"
+  ],
+  "noPackages": [
+    "com.prempoddar.campfire",
+    "com.prempoddar.duet",
+    "com.prempoddar.librechat",
+    "com.prempoddar.loadstone",
+    "com.prempoddar.oaf",
+    "com.prempoddar.tune"
+  ],
+  "noUpdateCheck": [
+    "com.prempoddar.campfire",
+    "com.prempoddar.duet",
+    "com.prempoddar.librechat",
+    "com.prempoddar.loadstone",
+    "com.prempoddar.oaf",
+    "com.prempoddar.tune"
+  ],
+  "stages": {
+    "archive_old_apks archive": 1793729891017,
+    "delete_disabled_builds": 1793729891016,
+    "index.make archive": 1793729891018,
+    "index.make repo": 1793729893628,
+    "prepare_apps archive": 1793729891018,
+    "prepare_apps repo": 1793729893580,
+    "process_apks": 1793729891016,
+    "read_added_date_from_all_apks": 1793729891017,
+    "remove_apks": 1793729891017,
+    "scan_repo_files": 1793729891017
+  },
+  "startTimestamp": 1793710090000,
+  "subcommand": "update"
+}

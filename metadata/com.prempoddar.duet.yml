@@ -1,0 +1,15 @@
+AntiFeatures:
+  NonFreeNet:
+    en-US: Finds other phones over the internet through a public MQTT relay (HiveMQ) and Google's STUN servers, and plays YouTube videos through YouTube.
+Categories:
+  - Multimedia
+License: Apache-2.0
+AuthorName: Prem Poddar
+AuthorEmail: prempoddar@yandex.com
+AuthorWebSite: https://prempoddar.is-a.dev
+WebSite: https://prempoddar.github.io/Duet/
+SourceCode: https://github.com/PremPoddar/Duet
+IssueTracker: https://github.com/PremPoddar/Duet/issues
+Changelog: https://github.com/PremPoddar/Duet/releases
+
+AutoName: Duet

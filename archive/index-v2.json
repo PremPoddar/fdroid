@@ -1,0 +1,20 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "Prem Poddar's apps (archive)"
+    },
+    "description": {
+      "en-US": "Older versions of the apps in Prem Poddar's repo."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/repo-icon.png",
+        "sha256": "6f9866a8077c236b6bc20b272f7cbdb0c7d952aa4db8f1c649d754a91efc3785",
+        "size": 52401
+      }
+    },
+    "address": "https://prempoddar.github.io/fdroid/archive",
+    "timestamp": 1793729891000
+  },
+  "packages": {}
+}

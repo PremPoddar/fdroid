@@ -1,0 +1,8 @@
+# The repo's signing key and its passwords never leave this Mac.
+config.yml
+keystore.p12
+*.p12
+*.jks
+tmp/
+srclibs/
+.DS_Store

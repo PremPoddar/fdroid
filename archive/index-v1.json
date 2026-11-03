@@ -1,0 +1,16 @@
+{
+  "repo": {
+    "timestamp": 1793729891000,
+    "version": 20002,
+    "name": "Prem Poddar's apps (archive)",
+    "icon": "repo-icon.png",
+    "description": "Older versions of the apps in Prem Poddar's repo.",
+    "address": "https://prempoddar.github.io/fdroid/archive"
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [],
+  "packages": {}
+}

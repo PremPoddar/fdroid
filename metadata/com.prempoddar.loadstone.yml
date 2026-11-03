@@ -1,0 +1,15 @@
+AntiFeatures:
+  NonFreeDep:
+    en-US: Uses Google Play Services for location and for scanning QR codes.
+Categories:
+  - Navigation
+License: Apache-2.0
+AuthorName: Prem Poddar
+AuthorEmail: prempoddar@yandex.com
+AuthorWebSite: https://prempoddar.is-a.dev
+WebSite: https://prempoddar.github.io/Loadstone/
+SourceCode: https://github.com/PremPoddar/Loadstone
+IssueTracker: https://github.com/PremPoddar/Loadstone/issues
+Changelog: https://github.com/PremPoddar/Loadstone/releases
+
+AutoName: Loadstone

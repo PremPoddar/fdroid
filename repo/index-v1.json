@@ -1,0 +1,695 @@
+{
+  "repo": {
+    "timestamp": 1793729893000,
+    "version": 20002,
+    "name": "Prem Poddar's apps",
+    "icon": "repo-icon.png",
+    "address": "https://prempoddar.github.io/fdroid/repo",
+    "description": "Apps by Prem Poddar: Duet, OAF, LibreChat, Campfire, Loadstone and Tune, signed by me and identical to the APKs on GitHub. More at https://prempoddar.is-a.dev/apps/"
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorEmail": "prempoddar@yandex.com",
+      "authorName": "Prem Poddar",
+      "authorWebSite": "https://prempoddar.is-a.dev",
+      "categories": [
+        "Internet",
+        "Connectivity"
+      ],
+      "changelog": "https://github.com/PremPoddar/Campfire/releases",
+      "suggestedVersionCode": "4",
+      "issueTracker": "https://github.com/PremPoddar/Campfire/issues",
+      "license": "Apache-2.0",
+      "sourceCode": "https://github.com/PremPoddar/Campfire",
+      "webSite": "https://prempoddar.github.io/Campfire/",
+      "added": 1793729825000,
+      "packageName": "com.prempoddar.campfire",
+      "lastUpdated": 1793729825000,
+      "localized": {
+        "en-US": {
+          "description": "<p><b>One phone hosts. Everyone else opens a link. No accounts, no internet, nothing left behind.</b></p>\n<p>Start a Campfire on your phone and it shows a link and a QR code. Anyone on the same Wi-Fi, or connected to your hotspot, opens it in any browser, picks a name and is chatting. When you end it, every message, room and file is gone.</p>\n<ul>\n<li><b>Public room</b> that everyone lands in, plus rooms anyone can start, optionally with a password.</li>\n<li><b>Direct messages</b> with anyone there.</li>\n<li><b>Replies and reactions</b>; edit or delete your own messages.</li>\n<li><b>Polls, pins</b> and muting.</li>\n<li><b>Voice notes</b> from the app or the browser.</li>\n<li><b>Read receipts, typing and presence.</b></li>\n<li><b>Files</b> of any kind and size; photos and videos play inline.</li>\n<li><b>Link previews</b> fetched by the host phone, so everyone sees them.</li>\n<li><b>Moderation:</b> room creators remove people from their rooms; the host can remove anyone.</li>\n<li><b>Save the chat</b> before the fire goes out.</li>\n</ul>\n",
+          "featureGraphic": "featureGraphic_TO48P1raWMNKUe76iDjL3wcSA6JNsnVrWm0h0N5Fp-M=.png",
+          "icon": "icon_Q7_fv1WvW3U9ztLz2soKy73aduy8pLD3EycJcYgLxqQ=.png",
+          "name": "Campfire",
+          "phoneScreenshots": [
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png",
+            "5.png"
+          ],
+          "summary": "Host a group chat from your phone. Others join from any browser. No internet",
+          "whatsNew": "\u2022 Built reproducibly, so the F-Droid and GitHub versions are the same app with the same signature, and you can update from either.\n"
+        }
+      }
+    },
+    {
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
+      "authorEmail": "prempoddar@yandex.com",
+      "authorName": "Prem Poddar",
+      "authorWebSite": "https://prempoddar.is-a.dev",
+      "categories": [
+        "Multimedia"
+      ],
+      "changelog": "https://github.com/PremPoddar/Duet/releases",
+      "suggestedVersionCode": "6",
+      "issueTracker": "https://github.com/PremPoddar/Duet/issues",
+      "license": "Apache-2.0",
+      "sourceCode": "https://github.com/PremPoddar/Duet",
+      "webSite": "https://prempoddar.github.io/Duet/",
+      "added": 1793729826000,
+      "packageName": "com.prempoddar.duet",
+      "lastUpdated": 1793729826000,
+      "localized": {
+        "en-US": {
+          "description": "<p><b>Listen to music together with up to seven other people, on the same couch or in different cities.</b></p>\n<p>Start a session and Duet gives you six words. Read them out on a call, let someone scan the code, or send the link. Pick a song from your phone, a YouTube video or a whole playlist, and it plays on everyone's phone at the same moment. Anyone can pause, skip, seek, vote or add their own songs.</p>\n<ul>\n<li><b>In sync</b> to within a few milliseconds, and kept there: each phone eases its own speed instead of jumping.</li>\n<li><b>Anywhere:</b> phones connect directly to each other. No account.</li>\n<li><b>Same room:</b> on the same Wi-Fi, sessions show up by themselves and work with no internet at all.</li>\n<li><b>YouTube:</b> play a video or a whole playlist together.</li>\n<li><b>Play along</b> with a song playing in another music app on each phone.</li>\n<li><b>Shared queue:</b> everyone adds songs from their own phone and votes the next one up.</li>\n<li><b>Synced lyrics</b> from the songs' own files.</li>\n<li><b>Hand over</b> the session to someone else when you leave, and the music carries on.</li>\n<li><b>Chat and reactions</b>, and lock screen controls.</li>\n<li><b>Appearance:</b> light, dark, dusk or OLED black, Material You, fonts, shapes and haptics.</li>\n</ul>\n<p>Over the internet, phones find each other through a public MQTT relay (HiveMQ) with messages sealed by a key from the six words, and use Google's STUN servers to connect directly. YouTube videos play through YouTube's player.</p>\n",
+          "featureGraphic": "featureGraphic__ER0fEvz4HOR16Pa9cCmb8NrqzUJfDGgB206axGp32g=.png",
+          "icon": "icon_jJQsshgtxivEYsSm97NrImWmXRi2-ChHIG2dAPUp6ww=.png",
+          "name": "Duet",
+          "phoneScreenshots": [
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png",
+            "5.png"
+          ],
+          "summary": "Listen to music together, in sync, on the same couch or in different cities",
+          "whatsNew": "\u2022 Built reproducibly, so the F-Droid and GitHub versions are the same app with the same signature, and you can update from either.\n"
+        }
+      }
+    },
+    {
+      "authorEmail": "prempoddar@yandex.com",
+      "authorName": "Prem Poddar",
+      "authorWebSite": "https://prempoddar.is-a.dev",
+      "categories": [
+        "Internet",
+        "Connectivity"
+      ],
+      "changelog": "https://github.com/PremPoddar/LibreChat/releases",
+      "suggestedVersionCode": "5",
+      "issueTracker": "https://github.com/PremPoddar/LibreChat/issues",
+      "license": "Apache-2.0",
+      "sourceCode": "https://github.com/PremPoddar/LibreChat",
+      "webSite": "https://prempoddar.github.io/LibreChat/",
+      "added": 1793729826000,
+      "packageName": "com.prempoddar.librechat",
+      "lastUpdated": 1793729826000,
+      "localized": {
+        "en-US": {
+          "description": "<p><b>An off-grid messenger. No internet, no servers, no accounts.</b></p>\n<p>At a festival, on a hike, in a building with no signal or during an outage: open LibreChat and everyone nearby running it forms a mesh. A message to someone out of range is carried by the phones in between, and if there's no path right now, they hold it for up to a day and pass it on when one appears. Everything private is end to end encrypted.</p>\n<ul>\n<li><b>Public chat</b> with everyone in range, signed so nobody can post as you.</li>\n<li><b>Direct messages</b> encrypted end to end with forward secrecy (X3DH and Double Ratchet).</li>\n<li><b>Groups</b> encrypted with Sender Keys; keys rotate when someone leaves.</li>\n<li><b>Photos and voice notes</b>, compressed for the mesh and sped up over Wi-Fi Aware when phones are side by side.</li>\n<li><b>Receipts:</b> sent, delivered across the mesh, and read.</li>\n<li><b>Replies, reactions</b> and delete for everyone.</li>\n<li><b>Disappearing messages:</b> 1 hour, 1 day or 1 week.</li>\n<li><b>Verification</b> by QR code or a 60-digit safety number.</li>\n<li><b>Requests and blocking</b> for strangers.</li>\n<li><b>Nearby radar:</b> who's in range and who's reachable through the mesh.</li>\n<li><b>On the phone:</b> encrypted database and media, keys in Android Keystore, app lock, a Calculator disguise for the home screen, and encrypted backups.</li>\n</ul>\n",
+          "featureGraphic": "featureGraphic_HjILVAmKGvQL3KmwvIDwno4EJWPfcixW4GXSmhMhMqo=.png",
+          "icon": "icon_vmw0ftKAt5mw76brmsATp9mmhtHyw5t4_1ss0LuPgrk=.png",
+          "name": "LibreChat",
+          "phoneScreenshots": [
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png"
+          ],
+          "summary": "Off-grid encrypted messenger over a Bluetooth and Wi-Fi mesh. No internet needed",
+          "whatsNew": "\u2022 Built reproducibly, so the F-Droid and GitHub versions are the same app with the same signature, and you can update from either.\n"
+        }
+      }
+    },
+    {
+      "antiFeatures": [
+        "NonFreeDep"
+      ],
+      "authorEmail": "prempoddar@yandex.com",
+      "authorName": "Prem Poddar",
+      "authorWebSite": "https://prempoddar.is-a.dev",
+      "categories": [
+        "Navigation"
+      ],
+      "changelog": "https://github.com/PremPoddar/Loadstone/releases",
+      "suggestedVersionCode": "3",
+      "issueTracker": "https://github.com/PremPoddar/Loadstone/issues",
+      "license": "Apache-2.0",
+      "sourceCode": "https://github.com/PremPoddar/Loadstone",
+      "webSite": "https://prempoddar.github.io/Loadstone/",
+      "added": 1793729826000,
+      "packageName": "com.prempoddar.loadstone",
+      "lastUpdated": 1793729826000,
+      "localized": {
+        "en-US": {
+          "description": "<p><b>Drop a pin, walk back to the exact spot.</b> Mark where you left the car on level 3, where the trailhead was, where the tent is. Hours or weeks later, open the pin and walk: one arrow, one distance, no map tiles, no signal needed.</p>\n<ul>\n<li><b>Follow-back arrow</b> to true north, corrected for magnetic declination.</li>\n<li><b>Honest accuracy:</b> every pin carries the radius you may have to search.</li>\n<li><b>Sharpen a pin</b> by standing on the spot again.</li>\n<li><b>Photos and voice notes</b> on pins, folders, and a home-screen widget.</li>\n<li><b>Retrace your exact path</b>, and get guided with the screen off.</li>\n<li><b>Radar</b> of the pins around you, live elevation and sunset warnings.</li>\n<li><b>Share as seven words</b> or a QR code; back up, restore and move pins to other map apps.</li>\n<li><b>App lock</b> and home-screen shortcuts.</li>\n</ul>\n",
+          "featureGraphic": "featureGraphic_WsT_TUKh_jWcayWpxuGier4r-PnSh4G6zAhCCv_lq04=.png",
+          "icon": "icon_oMJb21OPsS_4junko3ONjmonF3IYol3qzqxLVlzxJs0=.png",
+          "name": "Loadstone",
+          "phoneScreenshots": [
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png"
+          ],
+          "summary": "Drop a pin, walk back to the exact spot. No map or signal needed",
+          "whatsNew": "\u2022 Website and contact links in About.\n"
+        }
+      }
+    },
+    {
+      "antiFeatures": [
+        "NonFreeDep"
+      ],
+      "authorEmail": "prempoddar@yandex.com",
+      "authorName": "Prem Poddar",
+      "authorWebSite": "https://prempoddar.is-a.dev",
+      "categories": [
+        "System",
+        "Reading",
+        "Multimedia"
+      ],
+      "changelog": "https://github.com/PremPoddar/OAF/releases",
+      "suggestedVersionCode": "6",
+      "issueTracker": "https://github.com/PremPoddar/OAF/issues",
+      "license": "Apache-2.0",
+      "sourceCode": "https://github.com/PremPoddar/OAF",
+      "webSite": "https://prempoddar.github.io/OAF/",
+      "added": 1793729827000,
+      "packageName": "com.prempoddar.oaf",
+      "lastUpdated": 1793729827000,
+      "localized": {
+        "en-US": {
+          "description": "<p><b>OAF opens almost any file on your phone, and edits most of them.</b> PDFs, Word and Excel, slides, books, archives, pictures, music and video, in one quiet, fast app. Nothing is uploaded; it all happens on your phone.</p>\n<ul>\n<li><b>Documents:</b> read, annotate, fill and sign PDFs; edit Word and Excel; view slides.</li>\n<li><b>Books and text:</b> EPUB, Markdown and code with highlighting.</li>\n<li><b>Pictures:</b> crop, filters, drawing and text, blur faces, remove the background, copy text out of a photo; swipe between photos.</li>\n<li><b>Music and video</b> with a proper player, picture-in-picture and swipe between videos.</li>\n<li><b>Archives:</b> open and make zip, 7z and tar; open rar.</li>\n<li><b>A real file manager:</b> search inside documents, a 30-day bin, storage clean-up, previews, and network drives (SMB, SFTP, FTP, WebDAV).</li>\n<li><b>Apps:</b> share installed apps, even split ones, as one installable APK.</li>\n<li><b>Share over Wi-Fi</b> with a built-in FTP server.</li>\n</ul>\n",
+          "featureGraphic": "featureGraphic_9bSReFhrORGRdeN5Yi1MpOOAgXDEplwK2ZxsAOgUEnI=.png",
+          "icon": "icon_Jym0ur35xdoaE4EmSQjyqFht-8toXB43dcIRaNT_1ZE=.png",
+          "name": "OAF",
+          "phoneScreenshots": [
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png",
+            "5.png",
+            "6.png",
+            "7.png",
+            "8.png"
+          ],
+          "summary": "Open and edit almost any file: PDFs, Office, books, archives, media",
+          "whatsNew": "\u2022 Back goes back where you came from: when another app opens a file or an APK with OAF, going back now returns to that app, even after installing the APK.\n"
+        }
+      }
+    },
+    {
+      "authorEmail": "prempoddar@yandex.com",
+      "authorName": "Prem Poddar",
+      "authorWebSite": "https://prempoddar.is-a.dev",
+      "categories": [
+        "Multimedia",
+        "System"
+      ],
+      "changelog": "https://github.com/PremPoddar/Tune/releases",
+      "suggestedVersionCode": "3",
+      "issueTracker": "https://github.com/PremPoddar/Tune/issues",
+      "license": "Apache-2.0",
+      "sourceCode": "https://github.com/PremPoddar/Tune",
+      "webSite": "https://prempoddar.github.io/Tune/",
+      "added": 1793729827000,
+      "packageName": "com.prempoddar.tune",
+      "lastUpdated": 1793729827000,
+      "localized": {
+        "en-US": {
+          "description": "<p><b>A per-app volume mixer for Android. No root.</b></p>\n<p>Turn YouTube up and Spotify down, and Tune remembers. Switch apps and each one comes back at its own level. Put a podcast on over quiet background music and both play at once, each at the volume you gave it, separately for the speaker, your headphones and every Bluetooth device.</p>\n<ul>\n<li><b>Per-app levels</b> for media, ring, notification and alarm volume.</li>\n<li><b>Real mixing:</b> music players that share their audio play side by side at different levels.</li>\n<li><b>Learns as you go:</b> whatever volume you leave an app at becomes its level.</li>\n<li><b>Per output:</b> separate levels for the speaker, wired headphones and each Bluetooth device.</li>\n<li><b>Pin</b> an app at fixed levels.</li>\n<li><b>Volume panel</b> that moves the app you're using.</li>\n<li><b>Quick Settings tile and widget.</b></li>\n<li><b>Appearance:</b> light, dark, dusk or OLED black, Material You, fonts, shapes and haptics.</li>\n</ul>\n<p>Tune uses an accessibility service to see which app is in front. With Shizuku running, it can set every app's level exactly; without it, it mixes where apps allow and switches the media volume otherwise.</p>\n",
+          "featureGraphic": "featureGraphic_3XYRwZbGuC4FNcGH-HcyWEPmu72ad_EYlNmOsuyKEBk=.png",
+          "icon": "icon_dTW63f12DwbYsmEZKqX5c_pkbr48xdqLvzPuqK_gap4=.png",
+          "name": "Tune",
+          "phoneScreenshots": [
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png"
+          ],
+          "summary": "Per-app volume mixer: each app plays at its own level. No root",
+          "whatsNew": "\u2022 Built reproducibly, so the F-Droid and GitHub versions are the same app with the same signature, and you can update from either.\n"
+        }
+      }
+    }
+  ],
+  "packages": {
+    "com.prempoddar.campfire": [
+      {
+        "added": 1793729825000,
+        "apkName": "com.prempoddar.campfire_4.apk",
+        "hash": "92b09f24c30ca4ed677970a8acae616788cd8d38190dddd451f04bc0d016070e",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.prempoddar.campfire",
+        "sig": "b3c78b0471790175b40297aba176513e",
+        "signer": "ba488cdf56e8f2d4fe5a0b9ffcb6c621946620e389241001943c8e09509dc5cf",
+        "size": 6971717,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.prempoddar.campfire.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 4,
+        "versionName": "1.0.3"
+      }
+    ],
+    "com.prempoddar.duet": [
+      {
+        "added": 1793729826000,
+        "apkName": "com.prempoddar.duet_6.apk",
+        "hash": "36dac212b9e29a5894bcc3ac663513ada8929a11ac81cee492c169a73b54bb35",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.prempoddar.duet",
+        "sig": "b3c78b0471790175b40297aba176513e",
+        "signer": "ba488cdf56e8f2d4fe5a0b9ffcb6c621946620e389241001943c8e09509dc5cf",
+        "size": 49720221,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "com.prempoddar.duet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 6,
+        "versionName": "2.0.2"
+      }
+    ],
+    "com.prempoddar.librechat": [
+      {
+        "added": 1793729826000,
+        "apkName": "com.prempoddar.librechat_5.apk",
+        "features": [
+          "android.hardware.bluetooth_le"
+        ],
+        "hash": "29b80feda05ecd23530f706aa721cc0773d3ba3eb7f2068a6a0f3a5058060cfd",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.prempoddar.librechat",
+        "sig": "b3c78b0471790175b40297aba176513e",
+        "signer": "ba488cdf56e8f2d4fe5a0b9ffcb6c621946620e389241001943c8e09509dc5cf",
+        "size": 27857486,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.BLUETOOTH",
+            30
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            30
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            32
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            32
+          ],
+          [
+            "android.permission.BLUETOOTH_SCAN",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADVERTISE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_CONNECT",
+            null
+          ],
+          [
+            "android.permission.NEARBY_WIFI_DEVICES",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.prempoddar.librechat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 5,
+        "versionName": "1.1.1"
+      }
+    ],
+    "com.prempoddar.loadstone": [
+      {
+        "added": 1793729826000,
+        "apkName": "com.prempoddar.loadstone_3.apk",
+        "hash": "8540dae627df3c9bcfdf961e8afcd15f27394eb90be7e301627dd3a59de2d659",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.prempoddar.loadstone",
+        "sig": "b3c78b0471790175b40297aba176513e",
+        "signer": "ba488cdf56e8f2d4fe5a0b9ffcb6c621946620e389241001943c8e09509dc5cf",
+        "size": 3099342,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.prempoddar.loadstone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ]
+        ],
+        "versionCode": 3,
+        "versionName": "1.1.1"
+      }
+    ],
+    "com.prempoddar.oaf": [
+      {
+        "added": 1793729827000,
+        "apkName": "com.prempoddar.oaf_6.apk",
+        "hash": "75bd4a744bdd20922d0eb2352a4aa9f36f8361d80ac266f31b97826541ad7c98",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.prempoddar.oaf",
+        "sig": "b3c78b0471790175b40297aba176513e",
+        "signer": "ba488cdf56e8f2d4fe5a0b9ffcb6c621946620e389241001943c8e09509dc5cf",
+        "size": 33153869,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.prempoddar.oaf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 6,
+        "versionName": "1.2.2"
+      }
+    ],
+    "com.prempoddar.tune": [
+      {
+        "added": 1793729827000,
+        "apkName": "com.prempoddar.tune_3.apk",
+        "hash": "e47e65445f25c2205be9fcf4fada0f180e6368d5fe17e1e7febcf897f8096c68",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.prempoddar.tune",
+        "sig": "b3c78b0471790175b40297aba176513e",
+        "signer": "ba488cdf56e8f2d4fe5a0b9ffcb6c621946620e389241001943c8e09509dc5cf",
+        "size": 4163222,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NOTIFICATION_POLICY",
+            null
+          ],
+          [
+            "android.permission.DUMP",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.prempoddar.tune.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "moe.shizuku.manager.permission.API_V23",
+            null
+          ]
+        ],
+        "versionCode": 3,
+        "versionName": "1.0.2"
+      }
+    ]
+  }
+}

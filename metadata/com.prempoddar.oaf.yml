@@ -1,0 +1,17 @@
+AntiFeatures:
+  NonFreeDep:
+    en-US: Uses Google's ML Kit (through Google Play Services) to copy text out of photos, scan documents and remove backgrounds, and the UnRAR licence to open RAR files.
+Categories:
+  - System
+  - Reading
+  - Multimedia
+License: Apache-2.0
+AuthorName: Prem Poddar
+AuthorEmail: prempoddar@yandex.com
+AuthorWebSite: https://prempoddar.is-a.dev
+WebSite: https://prempoddar.github.io/OAF/
+SourceCode: https://github.com/PremPoddar/OAF
+IssueTracker: https://github.com/PremPoddar/OAF/issues
+Changelog: https://github.com/PremPoddar/OAF/releases
+
+AutoName: OAF

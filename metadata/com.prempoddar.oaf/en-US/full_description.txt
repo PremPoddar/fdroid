@@ -1,4 +1,4 @@
-<p><b>OAF opens almost any file on your phone, and edits most of them.</b> PDFs, Word and Excel, slides, books, archives, pictures, music and video, in one quiet, fast app. Nothing is uploaded; it all happens on your phone.</p>
+<p><b>OAF stands for Open Any File: it opens any file on your phone, and edits most of them.</b> PDFs, Word and Excel, slides, books, archives, pictures, music and video, in one quiet, fast app. Nothing is uploaded; it all happens on your phone.</p>
 <ul>
 <li><b>Documents:</b> read, annotate, fill and sign PDFs; edit Word and Excel; view slides.</li>
 <li><b>Books and text:</b> EPUB, Markdown and code with highlighting.</li>

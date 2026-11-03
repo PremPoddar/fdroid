@@ -19,8 +19,22 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1793729896093,
+  "endTimestamp": 1793732131807,
   "failedBuilds": {},
+  "fdroiddata": {
+    "commitId": "c6975d3051c4500976ed9cbfe578f8d88ad9b3d3",
+    "isDirty": true,
+    "modifiedFiles": [
+      "README.md",
+      "metadata/com.prempoddar.oaf/en-US/full_description.txt",
+      "metadata/com.prempoddar.oaf/en-US/images/phoneScreenshots/1.png",
+      "metadata/com.prempoddar.oaf/en-US/short_description.txt"
+    ],
+    "untrackedFiles": [
+      "metadata/com.prempoddar.oaf/en-US/changelogs/7.txt",
+      "repo/com.prempoddar.oaf_7.apk"
+    ]
+  },
   "jarsigner": "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/jarsigner",
   "keytool": "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/keytool",
   "needsUpdate": [
@@ -48,17 +62,17 @@
     "com.prempoddar.tune"
   ],
   "stages": {
-    "archive_old_apks archive": 1793729891017,
-    "delete_disabled_builds": 1793729891016,
-    "index.make archive": 1793729891018,
-    "index.make repo": 1793729893628,
-    "prepare_apps archive": 1793729891018,
-    "prepare_apps repo": 1793729893580,
-    "process_apks": 1793729891016,
-    "read_added_date_from_all_apks": 1793729891017,
-    "remove_apks": 1793729891017,
-    "scan_repo_files": 1793729891017
+    "archive_old_apks archive": 1793732126863,
+    "delete_disabled_builds": 1793732126148,
+    "index.make archive": 1793732126864,
+    "index.make repo": 1793732129435,
+    "prepare_apps archive": 1793732126864,
+    "prepare_apps repo": 1793732129144,
+    "process_apks": 1793732126148,
+    "read_added_date_from_all_apks": 1793732126863,
+    "remove_apks": 1793732126862,
+    "scan_repo_files": 1793732126862
   },
-  "startTimestamp": 1793710090000,
+  "startTimestamp": 1793712326000,
   "subcommand": "update"
 }

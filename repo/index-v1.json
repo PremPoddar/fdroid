@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1793729893000,
+    "timestamp": 1793732129000,
     "version": 20002,
     "name": "Prem Poddar's apps",
     "icon": "repo-icon.png",
@@ -167,17 +167,17 @@
         "Multimedia"
       ],
       "changelog": "https://github.com/PremPoddar/OAF/releases",
-      "suggestedVersionCode": "6",
+      "suggestedVersionCode": "7",
       "issueTracker": "https://github.com/PremPoddar/OAF/issues",
       "license": "Apache-2.0",
       "sourceCode": "https://github.com/PremPoddar/OAF",
       "webSite": "https://prempoddar.github.io/OAF/",
       "added": 1793729827000,
       "packageName": "com.prempoddar.oaf",
-      "lastUpdated": 1793729827000,
+      "lastUpdated": 1793732126000,
       "localized": {
         "en-US": {
-          "description": "<p><b>OAF opens almost any file on your phone, and edits most of them.</b> PDFs, Word and Excel, slides, books, archives, pictures, music and video, in one quiet, fast app. Nothing is uploaded; it all happens on your phone.</p>\n<ul>\n<li><b>Documents:</b> read, annotate, fill and sign PDFs; edit Word and Excel; view slides.</li>\n<li><b>Books and text:</b> EPUB, Markdown and code with highlighting.</li>\n<li><b>Pictures:</b> crop, filters, drawing and text, blur faces, remove the background, copy text out of a photo; swipe between photos.</li>\n<li><b>Music and video</b> with a proper player, picture-in-picture and swipe between videos.</li>\n<li><b>Archives:</b> open and make zip, 7z and tar; open rar.</li>\n<li><b>A real file manager:</b> search inside documents, a 30-day bin, storage clean-up, previews, and network drives (SMB, SFTP, FTP, WebDAV).</li>\n<li><b>Apps:</b> share installed apps, even split ones, as one installable APK.</li>\n<li><b>Share over Wi-Fi</b> with a built-in FTP server.</li>\n</ul>\n",
+          "description": "<p><b>OAF stands for Open Any File: it opens any file on your phone, and edits most of them.</b> PDFs, Word and Excel, slides, books, archives, pictures, music and video, in one quiet, fast app. Nothing is uploaded; it all happens on your phone.</p>\n<ul>\n<li><b>Documents:</b> read, annotate, fill and sign PDFs; edit Word and Excel; view slides.</li>\n<li><b>Books and text:</b> EPUB, Markdown and code with highlighting.</li>\n<li><b>Pictures:</b> crop, filters, drawing and text, blur faces, remove the background, copy text out of a photo; swipe between photos.</li>\n<li><b>Music and video</b> with a proper player, picture-in-picture and swipe between videos.</li>\n<li><b>Archives:</b> open and make zip, 7z and tar; open rar.</li>\n<li><b>A real file manager:</b> search inside documents, a 30-day bin, storage clean-up, previews, and network drives (SMB, SFTP, FTP, WebDAV).</li>\n<li><b>Apps:</b> share installed apps, even split ones, as one installable APK.</li>\n<li><b>Share over Wi-Fi</b> with a built-in FTP server.</li>\n</ul>\n",
           "featureGraphic": "featureGraphic_9bSReFhrORGRdeN5Yi1MpOOAgXDEplwK2ZxsAOgUEnI=.png",
           "icon": "icon_Jym0ur35xdoaE4EmSQjyqFht-8toXB43dcIRaNT_1ZE=.png",
           "name": "OAF",
@@ -191,8 +191,8 @@
             "7.png",
             "8.png"
           ],
-          "summary": "Open and edit almost any file: PDFs, Office, books, archives, media",
-          "whatsNew": "\u2022 Back goes back where you came from: when another app opens a file or an APK with OAF, going back now returns to that app, even after installing the APK.\n"
+          "summary": "Open Any File: PDFs, Office, books, archives and media, and edit most of them",
+          "whatsNew": "\u2022 Open Any File: that's what OAF stands for, and the app now says so on the home screen and in About.\n"
         }
       }
     },
@@ -548,6 +548,88 @@
       }
     ],
     "com.prempoddar.oaf": [
+      {
+        "added": 1793732126000,
+        "apkName": "com.prempoddar.oaf_7.apk",
+        "hash": "d2998f37ddd6bc5c6a602316cae77592a22134083f426a6997cf6905f1d6b5f6",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.prempoddar.oaf",
+        "sig": "b3c78b0471790175b40297aba176513e",
+        "signer": "ba488cdf56e8f2d4fe5a0b9ffcb6c621946620e389241001943c8e09509dc5cf",
+        "size": 33153873,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.prempoddar.oaf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 7,
+        "versionName": "1.2.3"
+      },
       {
         "added": 1793729827000,
         "apkName": "com.prempoddar.oaf_6.apk",

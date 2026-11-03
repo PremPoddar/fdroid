@@ -7,6 +7,148 @@
         "size": 52401
       }
     },
-    "timestamp": 1793729893000
+    "timestamp": 1793732129000
+  },
+  "packages": {
+    "com.prempoddar.oaf": {
+      "metadata": {
+        "lastUpdated": 1793732126000,
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.prempoddar.oaf/en-US/phoneScreenshots/1.png",
+                "sha256": "9679a8c676693c023fe8d2f90c9a001f9b1a195192be47fbadd8de4222240ba2",
+                "size": 371568
+              },
+              {
+                "name": "/com.prempoddar.oaf/en-US/phoneScreenshots/2.png",
+                "sha256": "c942e416a8dd13e2744ef53a85f5cbf5a91a354b50d6e817d3e32671976c6e82",
+                "size": 643232
+              },
+              {
+                "name": "/com.prempoddar.oaf/en-US/phoneScreenshots/3.png",
+                "sha256": "5e452fe79fa0d6a1f7fa541ba5f11da64b372a2b9b5598d947b289a19d1cbcbb",
+                "size": 416855
+              },
+              {
+                "name": "/com.prempoddar.oaf/en-US/phoneScreenshots/4.png",
+                "sha256": "8306a4415af9c277971a7e609ead66c68d4290abfa7e8cc3a33eabd46f87f0e8",
+                "size": 199260
+              },
+              {
+                "name": "/com.prempoddar.oaf/en-US/phoneScreenshots/5.png",
+                "sha256": "84fe69edc20306354cb017489033bdcfb019cc990860a867a8517e6db586dfd1",
+                "size": 783607
+              },
+              {
+                "name": "/com.prempoddar.oaf/en-US/phoneScreenshots/6.png",
+                "sha256": "0a1db4a9fc4d52d56c7730bc93037c7651591da40c2233edeeecc60ee4e419aa",
+                "size": 413078
+              },
+              {
+                "name": "/com.prempoddar.oaf/en-US/phoneScreenshots/7.png",
+                "sha256": "d1994344a410ed340268f766f2c5fb13c9f6962ebc81a677aa2358a7142c4d9b",
+                "size": 477064
+              },
+              {
+                "name": "/com.prempoddar.oaf/en-US/phoneScreenshots/8.png",
+                "sha256": "2ac0148694f76dd7dd459a0b9b327575708c1a838b5d309b20de574154c574ff",
+                "size": 342951
+              }
+            ]
+          }
+        },
+        "summary": {
+          "en-US": "Open Any File: PDFs, Office, books, archives and media, and edit most of them"
+        },
+        "description": {
+          "en-US": "<p><b>OAF stands for Open Any File: it opens any file on your phone, and edits most of them.</b> PDFs, Word and Excel, slides, books, archives, pictures, music and video, in one quiet, fast app. Nothing is uploaded; it all happens on your phone.</p>\n<ul>\n<li><b>Documents:</b> read, annotate, fill and sign PDFs; edit Word and Excel; view slides.</li>\n<li><b>Books and text:</b> EPUB, Markdown and code with highlighting.</li>\n<li><b>Pictures:</b> crop, filters, drawing and text, blur faces, remove the background, copy text out of a photo; swipe between photos.</li>\n<li><b>Music and video</b> with a proper player, picture-in-picture and swipe between videos.</li>\n<li><b>Archives:</b> open and make zip, 7z and tar; open rar.</li>\n<li><b>A real file manager:</b> search inside documents, a 30-day bin, storage clean-up, previews, and network drives (SMB, SFTP, FTP, WebDAV).</li>\n<li><b>Apps:</b> share installed apps, even split ones, as one installable APK.</li>\n<li><b>Share over Wi-Fi</b> with a built-in FTP server.</li>\n</ul>\n"
+        }
+      },
+      "versions": {
+        "d2998f37ddd6bc5c6a602316cae77592a22134083f426a6997cf6905f1d6b5f6": {
+          "added": 1793732126000,
+          "file": {
+            "name": "/com.prempoddar.oaf_7.apk",
+            "sha256": "d2998f37ddd6bc5c6a602316cae77592a22134083f426a6997cf6905f1d6b5f6",
+            "size": 33153873
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.2.3",
+            "versionCode": 7,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "ba488cdf56e8f2d4fe5a0b9ffcb6c621946620e389241001943c8e09509dc5cf"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.REQUEST_DELETE_PACKAGES"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.prempoddar.oaf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Uses Google's ML Kit (through Google Play Services) to copy text out of photos, scan documents and remove backgrounds, and the UnRAR licence to open RAR files."
+            }
+          }
+        }
+      }
+    }
   }
 }

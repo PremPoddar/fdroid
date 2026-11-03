@@ -14,7 +14,7 @@
       }
     },
     "address": "https://prempoddar.github.io/fdroid/repo",
-    "timestamp": 1793729893000,
+    "timestamp": 1793732129000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -645,7 +645,7 @@
         ],
         "changelog": "https://github.com/PremPoddar/OAF/releases",
         "issueTracker": "https://github.com/PremPoddar/OAF/issues",
-        "lastUpdated": 1793729827000,
+        "lastUpdated": 1793732126000,
         "license": "Apache-2.0",
         "sourceCode": "https://github.com/PremPoddar/OAF",
         "webSite": "https://prempoddar.github.io/OAF/",
@@ -661,8 +661,8 @@
             "en-US": [
               {
                 "name": "/com.prempoddar.oaf/en-US/phoneScreenshots/1.png",
-                "sha256": "871cce401d639b8c1bc19798fe9441480b056345eecca16bcd911ed31b4bfbaf",
-                "size": 375633
+                "sha256": "9679a8c676693c023fe8d2f90c9a001f9b1a195192be47fbadd8de4222240ba2",
+                "size": 371568
               },
               {
                 "name": "/com.prempoddar.oaf/en-US/phoneScreenshots/2.png",
@@ -709,10 +709,10 @@
           "en-US": "OAF"
         },
         "summary": {
-          "en-US": "Open and edit almost any file: PDFs, Office, books, archives, media"
+          "en-US": "Open Any File: PDFs, Office, books, archives and media, and edit most of them"
         },
         "description": {
-          "en-US": "<p><b>OAF opens almost any file on your phone, and edits most of them.</b> PDFs, Word and Excel, slides, books, archives, pictures, music and video, in one quiet, fast app. Nothing is uploaded; it all happens on your phone.</p>\n<ul>\n<li><b>Documents:</b> read, annotate, fill and sign PDFs; edit Word and Excel; view slides.</li>\n<li><b>Books and text:</b> EPUB, Markdown and code with highlighting.</li>\n<li><b>Pictures:</b> crop, filters, drawing and text, blur faces, remove the background, copy text out of a photo; swipe between photos.</li>\n<li><b>Music and video</b> with a proper player, picture-in-picture and swipe between videos.</li>\n<li><b>Archives:</b> open and make zip, 7z and tar; open rar.</li>\n<li><b>A real file manager:</b> search inside documents, a 30-day bin, storage clean-up, previews, and network drives (SMB, SFTP, FTP, WebDAV).</li>\n<li><b>Apps:</b> share installed apps, even split ones, as one installable APK.</li>\n<li><b>Share over Wi-Fi</b> with a built-in FTP server.</li>\n</ul>\n"
+          "en-US": "<p><b>OAF stands for Open Any File: it opens any file on your phone, and edits most of them.</b> PDFs, Word and Excel, slides, books, archives, pictures, music and video, in one quiet, fast app. Nothing is uploaded; it all happens on your phone.</p>\n<ul>\n<li><b>Documents:</b> read, annotate, fill and sign PDFs; edit Word and Excel; view slides.</li>\n<li><b>Books and text:</b> EPUB, Markdown and code with highlighting.</li>\n<li><b>Pictures:</b> crop, filters, drawing and text, blur faces, remove the background, copy text out of a photo; swipe between photos.</li>\n<li><b>Music and video</b> with a proper player, picture-in-picture and swipe between videos.</li>\n<li><b>Archives:</b> open and make zip, 7z and tar; open rar.</li>\n<li><b>A real file manager:</b> search inside documents, a 30-day bin, storage clean-up, previews, and network drives (SMB, SFTP, FTP, WebDAV).</li>\n<li><b>Apps:</b> share installed apps, even split ones, as one installable APK.</li>\n<li><b>Share over Wi-Fi</b> with a built-in FTP server.</li>\n</ul>\n"
         },
         "icon": {
           "en-US": {
@@ -724,6 +724,87 @@
         "preferredSigner": "ba488cdf56e8f2d4fe5a0b9ffcb6c621946620e389241001943c8e09509dc5cf"
       },
       "versions": {
+        "d2998f37ddd6bc5c6a602316cae77592a22134083f426a6997cf6905f1d6b5f6": {
+          "added": 1793732126000,
+          "file": {
+            "name": "/com.prempoddar.oaf_7.apk",
+            "sha256": "d2998f37ddd6bc5c6a602316cae77592a22134083f426a6997cf6905f1d6b5f6",
+            "size": 33153873
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.2.3",
+            "versionCode": 7,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "ba488cdf56e8f2d4fe5a0b9ffcb6c621946620e389241001943c8e09509dc5cf"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.REQUEST_DELETE_PACKAGES"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.prempoddar.oaf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Uses Google's ML Kit (through Google Play Services) to copy text out of photos, scan documents and remove backgrounds, and the UnRAR licence to open RAR files."
+            }
+          }
+        },
         "75bd4a744bdd20922d0eb2352a4aa9f36f8361d80ac266f31b97826541ad7c98": {
           "added": 1793729827000,
           "file": {

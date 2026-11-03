@@ -26,7 +26,7 @@ B22CDB8846EA991100C5D8DD2CBB893AF2C51B72406210B94B9F8C9B539E8BF6
 | App | What it does |
 |---|---|
 | [Duet](https://github.com/PremPoddar/Duet) | Listen to music together, in sync, on the same couch or in different cities |
-| [OAF](https://github.com/PremPoddar/OAF) | Open and edit almost any file: PDFs, Office, books, archives, media |
+| [OAF](https://github.com/PremPoddar/OAF) | Open Any File: PDFs, Office, books, archives and media |
 | [LibreChat](https://github.com/PremPoddar/LibreChat) | Off-grid encrypted messenger over a Bluetooth and Wi-Fi mesh |
 | [Campfire](https://github.com/PremPoddar/Campfire) | Host a group chat from your phone; others join from any browser |
 | [Loadstone](https://github.com/PremPoddar/Loadstone) | Drop a pin, walk back to the exact spot |
